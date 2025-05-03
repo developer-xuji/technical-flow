@@ -12,3 +12,5 @@ export const TRAIN_DIRECTION = 0;
 export const RAILWAY = 1;
 export const TRACTION = 2;
 export const STORAGE = 3;
+
+export const NODE_SHAPE = "custom-node-width-port";

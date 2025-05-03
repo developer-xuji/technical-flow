@@ -146,4 +146,10 @@ export const titleData: Array<Array<Title>> = [
     { color: TRACTION_COLOR, key: "19", name: "北牵出线", subName: "计划" },
     { color: TRACTION_COLOR, key: "20", name: "北牵出线", subName: "实际" },
   ],
+  []
 ];
+
+export const TRAIN_GRAPH_HEIGHT = titleData[0].length * 100;
+export const RAILWAY_GRAPH_HEIGHT = titleData[1].length * 100;
+export const TRACTION_GRAPH_HEIGHT = titleData[2].length * 100;
+export const GROUND_GRAPH_HEIGHT = titleData[3].length * 100;

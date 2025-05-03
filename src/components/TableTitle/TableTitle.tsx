@@ -44,7 +44,7 @@ const TableTitle: React.FC<{titleData:Array<any>}> = ({titleData}) => {
       dataSource={dataSource}
       columns={columns}
       pagination={{ position: ["none"], pageSize: 500 }}
-      style={{ minWidth: `${HEADER_WIDTH}px`, position:'sticky', left:'0', zIndex:'99' }}
+      style={{ minWidth: `${HEADER_WIDTH}px`, position:'sticky', left:'0', zIndex:'98' }}
       rowClassName={(record,i) => getRowClassName(record.key)+' HighLightText'}
     />
   );

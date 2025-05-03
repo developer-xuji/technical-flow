@@ -1,9 +1,10 @@
 import React from "react";
 import { Graph } from "@antv/x6";
+import { NODE_SHAPE } from "@/constants";
 
 const NodeRegister = () => {
   return Graph.registerNode(
-    "custom-node-width-port",
+    NODE_SHAPE,
     {
       inherit: "rect",
       width: 50,
@@ -29,13 +30,13 @@ const NodeRegister = () => {
               },
             },
           },
-          bottom: {
+          empty: {
             position: "absolute",
             attrs: {
               circle: {
                 magnet: true,
-                stroke: "#8f8f8f",
-                r: 5,
+                stroke: "#8f8f8f0",
+                r: 0,
               },
             },
           },

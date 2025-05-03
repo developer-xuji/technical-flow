@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Checkbox } from "antd";
+import './DisplayBoard.scss'
 
 const CheckboxGroup = Checkbox.Group;
 const TRAINDIR = '列车进/出站';
@@ -23,7 +24,7 @@ const DisplayBoard: React.FC<{
   };
 
   return (
-    <div>
+    <div className="DisplayBoard">
       <CheckboxGroup
         options={plainOptions}
         value={checkedList}
