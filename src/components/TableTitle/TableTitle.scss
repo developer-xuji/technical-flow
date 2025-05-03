@@ -1,0 +1,22 @@
+
+.hiddenHeader .ant-table-thead {
+    display: none; /* 隐藏表头 */
+}
+
+.hiddenHeader tr{
+    height:100px
+}
+.trainRow {
+    background-color: #85c5ed;
+}
+.railwayRow {
+    background-color: #eedc82;
+}
+.localStationRow {
+    background-color: #e0eee0;
+}
+
+.HighLightText{
+    font:bolder;
+    font-size: large;
+}
