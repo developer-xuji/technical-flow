@@ -1,0 +1,11 @@
+.ControlBar{
+    position: fixed;
+    z-index: 100;
+    min-width: 100vw;
+    min-height: 3cm;
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}

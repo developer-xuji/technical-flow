@@ -9,7 +9,7 @@ const TimeLine: React.FC<{shift:string}> = ({shift}) => {
   const shiftSlots = shift === 'day' ? dayTimeSlots : nightTimeSlots;
 
   return (
-    <Timeline style={{ display: "flex", marginLeft:`${HEADER_WIDTH-4}px`, marginTop:'3cm',maxHeight:"1cm", bottom:'0'}}>
+    <Timeline style={{ display: "flex", marginLeft:`${HEADER_WIDTH-4}px`, top:'3cm',maxHeight:"1cm", bottom:'0', position: 'sticky', zIndex:'98'}}>
         {shiftSlots.map((t)=>
           <Timeline.Item color={t===25 ? '#fff0' : 'red'} style={{ minWidth: "600px", textAlign:"left" }} >
             {t===25 ? '' : t}
